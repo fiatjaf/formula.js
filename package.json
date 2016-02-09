@@ -11,6 +11,9 @@
   "bin": {
     "implementation-stats": "./bin/implementation-stats"
   },
+  "scripts": {
+    "test": "make test"
+  },
   "dependencies": {
     "jStat": "1.0.6",
     "numeral": "1.5.3",

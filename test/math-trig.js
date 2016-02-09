@@ -211,6 +211,11 @@ suite('Math & Trig', function() {
     mathTrig.DEGREES('invalid').should.equal(error.value);
   });
 
+  test('SUBTRACT', function () {
+    mathTrig.SUBTRACT(10, 7).should.equal(3);
+    mathTrig.SUBTRACT(1.1, 7, 1.2).should.equal(-7.1);
+  });
+
   test('DIVIDE', function() {
     mathTrig.DIVIDE(10, 4).should.equal(2.5);
     mathTrig.DIVIDE(12, -6).should.equal(-2);
